@@ -1,4 +1,4 @@
-# kaggle-moa-prediction
+# Kaggle: MOA Prediction
 
 *Data Science @ UCSC, 01/10/2020*
 

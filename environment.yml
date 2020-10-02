@@ -1,0 +1,8 @@
+name:
+	kaggle-moa-prediction
+channels:
+	- base
+	- conda-forge
+	- anaconda
+dependencies:
+	- jupyter
