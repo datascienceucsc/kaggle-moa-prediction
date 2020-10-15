@@ -1,8 +1,16 @@
-name:
+name: 
 	kaggle-moa-prediction
-channels:
-	- base
+  channels:
 	- conda-forge
-	- anaconda
-dependencies:
-	- jupyter
+	- default
+  dependencies:
+	- python=3.8
+	- numpy=1.19.0
+	- matplotlib=3.3.1
+	- pandas=1.1.2
+	- scikit-learn=0.23
+	- seaborn=0.11.0
+	- jupyterlab=2.2.8
+	- requests=2.24.0
+	- pytest=6.1.0
+	- py-xgboost=0.70 

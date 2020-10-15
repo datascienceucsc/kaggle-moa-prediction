@@ -15,6 +15,13 @@ Switch to the new environment:
 conda activate kaggle-moa-prediction
 ```
 
+### Updating environment with new dependencies
+
+Do this after pulling from `main` if `environment.yml` was modified 
+upstream
+```
+conda update -f environment.yml
+```
 
 ## Project structure
 ```├── environment.yml          <- The conda file for reproducing the analysis
